@@ -1,0 +1,59 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #000;
+}
+input::selection {
+    background-color: transparent;
+}
+
+.wrapper-menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin: 1rem;
+}
+
+.item img {
+    width: 20rem;
+    height: 35rem;
+    object-fit: contain;
+}
+
+.item-price_name {
+    bottom: 0;
+}
+
+.item-name {
+    padding-bottom: 0.4rem;
+    text-transform: uppercase;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0.4rem !important;
+}

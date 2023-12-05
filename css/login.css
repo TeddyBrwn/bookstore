@@ -1,0 +1,95 @@
+
+    body,
+    h1,
+    h2,
+    h3,
+    p,
+    input,
+    button {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        flex: 1;
+    }
+
+    .container {
+        flex: 1;
+        height: 20rem;
+        width: 100%;
+        margin: 15% auto; /* Adjust the top margin as needed */
+        text-align: center; /* Center the content */
+        margin-bottom: 10rem;
+    }
+
+    .login-margin {
+        padding: 4rem;
+        background-color: #fff;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.1);
+        display: inline-block; /* Align center */
+        text-align: left; /* Align form content to the left within the container */
+    }
+
+    .sub-login {
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-login input[type="text"],
+    .sub-login input[type="password"] {
+        border-bottom: 1px solid #000;
+    }
+
+    .login-sub {
+        display: inline-block;
+        width: 12rem;
+        font-weight: bold;
+    }
+
+    .input-sub input {
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 0.4rem;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .submit-login {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 0.4px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .submit-login:hover {
+        background-color: #45a049;
+    }
+
+    .css-php p {
+        margin-top: 0.8rem;
+    }
+
+    .search {
+        display: none !important;
+    }
+
+    .footer {
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 0.4rem !important;
+    }

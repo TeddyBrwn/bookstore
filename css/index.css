@@ -1,0 +1,44 @@
+*{
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.9rem;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+a{
+    color: #000;
+}
+
+.wrapper-menu {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 1px;
+    padding:1rem ;
+    border: 1px solid#ccc;
+    
+
+}
+
+.item img {
+    width: 20rem;
+    height: 35rem;
+    object-fit: contain;
+}
+.item-price_name{
+    bottom: 0;
+}
+.item-name{
+    padding-bottom: 0.4rem;
+    text-transform: uppercase;
+}

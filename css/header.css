@@ -1,0 +1,106 @@
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+a, li, ul, ol {
+    text-decoration: none;
+    list-style: none;
+}
+input{
+    border: 1px solid transparent;
+    outline: none;
+}
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 6.2rem;
+    /* background-color: black; */
+}
+.top-bar{
+    font-family: "Product Sans";
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #000;
+
+}
+.top-bar_left,.top-bar_right{
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #fff;
+    width: 100%;
+
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.top-bar_left>span,.top-bar_right>span{
+    padding: 0 0.8rem;
+}
+
+.top-bar_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top-bar_right{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+/* .top-bar_left span,.top-bar_right span{
+    padding:0 0.4rem;
+} */
+.top-bar_left a,.top-bar_right a{
+    color: #fff;
+}
+.logo-search{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img{
+    width: 10rem;
+    padding: 1rem 5rem;
+}
+.search {
+    margin-right: 0.8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.search input {
+    font-size: 1.1rem;
+    height: 2rem;
+    width: 12rem;
+    border-bottom: 1px solid #000;
+
+}
+.search button {
+    font-size: 0.8rem;
+    padding:0.6rem;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid transparent;
+    background:none;
+
+}
+.search button:hover{
+    color: red;
+}
+a:hover{
+    color: red;
+}
